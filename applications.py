@@ -3,7 +3,7 @@ import pandas as pd
 from pickle import load
 
 lb=load(open('label_encoder.pkl','rb'))
-slr = load(open('standard_scaler.pkl', 'rb'))
+sc = load(open('standard_scaler.pkl', 'rb'))
 gb=load(open('gb.pkl','rb'))
 
 
