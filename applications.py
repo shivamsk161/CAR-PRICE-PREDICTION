@@ -20,7 +20,7 @@ with st.form('my_form'):
     own = st.selectbox(label='Owner', options=df.owner.unique())
 
     yr = st.selectbox(label='Name', options=df.year.unique())
-    kmd = st.select_slider('Select Length of diamond in mm', options=df.km_driven.unique())
+    kmd = st.select_slider('Select Length of km driven in mm', options=df.km_driven.unique())
 
     btn = st.form_submit_button(label='Predict')
 
